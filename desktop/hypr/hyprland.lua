@@ -16,7 +16,7 @@ hl.config({
 
 		resize_on_border = true,
 
-		layout = "scrolling",
+		layout = "dwindle",
 
 	},
 
