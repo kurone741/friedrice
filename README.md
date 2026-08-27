@@ -11,4 +11,23 @@ opinionated work in progress rice for hyprland
 | text editor            | `nvim`                      |
 
 ## keybinds
+### program launchers
+| bind        | program           |
+| ----------- | ----------------- |
+| SUPER + M | wlogout|
+| SUPER + Space | kitty|
+|SUPER + R | rofi| 
+| SUPER + Q| close active window|
+| SUPER + S | ss && cp |
+| SUPER + [0-9] | move focus to workspace|
+| SUPER + SHIFT + [0-9] | move window to workspace && follow focus|
 
+#### wlogout
+|bind|function|
+|---|---|
+|l|hyprlock|
+|e|exit|
+|s|suspend|
+|h|hibernate|
+|p|poweroff|
+|r|reboot|
