@@ -16,4 +16,17 @@ end)
 --rofi(run) when super r
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 
---
+--ss utilty
+hl.bind("SUPER + S", hl.dsp.exec_cmd('grim -g "$(slurp)" - | wl-copy'))
+
+-- Switch / move to workspaces 1-9
+for i = 1, 9 do
+    -- Focus workspace
+    hl.bind("SUPER + " .. i, hl.dsp.focus({ workspace = i }))
+
+    -- Move window to workspace and follow it
+    hl.bind(
+        "SUPER + SHIFT + " .. i,
+        hl.dsp.window.move({ workspace = i, follow = true })
+    )
+end
