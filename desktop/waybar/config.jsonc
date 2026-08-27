@@ -3,10 +3,11 @@
 	"reload_style_on_change": true,
 	"layer": "top",
 	"position":"top",
-	"height": 20,
-	"margin-top": 3,
-	"margin-left": 20,
-	"margin-right": 20,
+	"height": 12,
+	"margin-top": 2,
+	"margin-left": 5,
+	"margin-right": 5,
+	"border-radius": 3,
 	"spacing": 10,
 	
 	//module layouts
@@ -17,13 +18,13 @@
 		"cpu",
 		"memory",
 		"battery"
-	]
+	],
 
 	//clock/date
 	"clock": {
-		"format":  "{:%H:%M:%S %Y-%m-%d}",
+		"format": " {:%H:%M:%S %Y-%m-%d}",
 		"interval":1
-	}
+	},
 
 	//pulseaudio
 	"pulseaudio":{
@@ -32,28 +33,33 @@
 			"default":["", "", ""]
 		},
 		"on-click": "pavucontrol"
-	}
+	},
 
 	//workspaces
 	"hyprland/workspaces":{
 		"format": "{name}",
 		"on-click": "activate"
-	}
+	},
 
 	//tray
 	"tray":{
 		"icon-size": 16,
 		"spacing":12
-	}
+	},
 
 	//batt
 	"battery":{
 		"bat": "BAT0"
-	}
+	},
 
-	//mem
+	//mem usage
 	"memory": {
 		"interval":1,
 		"format": "{used:0.1f}G/{total:0.1f}G"
+	},
+
+	//cpu usage
+	"cpu": {
+		"format": " {usage}%"
 	}
 }
