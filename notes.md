@@ -27,5 +27,3 @@ damn, that's a lot lmao.
 | ram idle | `2G` | `1G` | 
 | ram with firefox @~25 tabs | `14.5G` | `8.8G` |
 | cpu idle | `2%` | `0%` |
-| startup time (full boot) | `16s` | `5s` |
-| startup time (desktop session) | `1s` | `1s|
