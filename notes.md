@@ -1,6 +1,20 @@
 # benchmarks and notes
+## 2026 08 31
+yesterday i fixed fastfetch. it's usable now, but i think i'm still not done with it yet. i'm going to probably add display module
 
-## update as of 2026-08-27
+it's true that waybar is unstyled for the most part currently, but it's not a priority i think, mostly, i should work on other more important parts of my system first. well, at least it's not ugly. lol
+
+i still need to:
+- write the installation script
+- fix the guide
+- i still haven't figured out pywal yet, i think i keep delaying it
+- wlogout still not working
+- haven't touched rofi configs yet
+- neovim ide
+- idk what i can do with yazi/mpd/ncmpcpp honestly. for ncmpcpp, i'm wanting to add album art to ncmpcpp but i haven't figured out how. 
+- custom starship prompt
+
+## update as of 2026 08 27
 
 first made this document to keep track of benchmarks and document things i changed.
 
@@ -16,7 +30,7 @@ todo:
 - style rofi and config
 - fix fastfetch
 - rice neovim 
-- starship?
+- starship prompt?
 - ncmpcpp and mpd
 - yazi
 
@@ -24,6 +38,6 @@ damn, that's a lot lmao.
 
 | | hyprlang configs (old) | lua (2026-08-27) |
 | ---| --- | --- |
-| ram idle | `2G` | `1G` | 
-| ram with firefox @~25 tabs | `14.5G` | `8.8G` |
+| ram idle | `3.2G` | `2.1G` | 
+| ram with firefox @~25 tabs | `14.5G` | `7.8G` |
 | cpu idle | `2%` | `0%` |
