@@ -15,6 +15,8 @@ yesterday i fixed fastfetch. it's usable now, but i think i'm still not done wit
 
 it's true that waybar is unstyled for the most part currently, but it's not a priority i think, mostly, i should work on other more important parts of my system first. well, at least it's not ugly. lol
 
+[!(assets/waybar20260901.png)]
+
 i still need to:
 - write the installation script
 - fix the guide
