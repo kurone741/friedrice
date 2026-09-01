@@ -9,6 +9,7 @@ i want to style rofi too.
 
 starship is good.
 
+oh right, i also should figure out greetd/tuigreet sometime, too.
 ## 2026 08 31
 yesterday i fixed fastfetch. it's usable now, but i think i'm still not done with it yet. i'm going to probably add display module
 
