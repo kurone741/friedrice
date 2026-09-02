@@ -4,11 +4,17 @@ opinionated work in progress rice for hyprland
 ## Table of Contents
 
 - [friedrice](#friedrice)
+  - [supported distros](#supported-distros)
   - [defaults](#defaults)
   - [keybinds](#keybinds)
     - [applications](#applications)
       - [wlogout](#wlogout)
     - [windows & workspaces](#windows-&-workspaces)
+
+
+## supported distros
+
+friedrice has been tested on arch.
 
 ## defaults
 | function               | program                     |

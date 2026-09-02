@@ -12,3 +12,12 @@ TEMPORARY LIST, TODO: ADD
  - yazi
  - pywal16
  - imagemagick
+ - yazi
+ - firefox developer edition
+ - kitty
+ - nvim 
+ - wlogout
+ - slurp
+ - grim
+ - wl-clipboard
+ - hypridle
