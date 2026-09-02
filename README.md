@@ -24,7 +24,7 @@ friedrice has been tested on arch.
 | launcher               | `rofi`                      |
 | browser                | `firefox developer edition` |
 | text editor            | `nvim`                      |
-
+| login manager | `greetd` + `tuigreet` |
 ## keybinds
 ### applications
 | bind        | program           |
