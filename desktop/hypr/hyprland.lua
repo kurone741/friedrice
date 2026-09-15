@@ -49,3 +49,4 @@ hl.config({
 
 --keybinds
 require("keybinds")
+require("autostart")
