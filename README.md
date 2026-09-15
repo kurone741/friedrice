@@ -9,7 +9,6 @@ opinionated work in progress rice for hyprland
 | launcher               | `rofi`                      |
 | browser                | `firefox developer edition` |
 | text editor            | `nvim`                      |
-| ---------------------- | --------------------------- |
 
 ## keybinds
 
