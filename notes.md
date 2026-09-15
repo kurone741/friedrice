@@ -1,4 +1,14 @@
 # benchmarks and notes
+
+## 2026 09 01
+i want to finish fastfetch and integrate pywal today.
+
+after that, i'll see if there's anything else i'd need to do for a functioning system. i want to rice neovim too, but that (as well as waybar) is less of a priority lol. 
+
+i want to style rofi too.
+
+starship is good.
+
 ## 2026 08 31
 yesterday i fixed fastfetch. it's usable now, but i think i'm still not done with it yet. i'm going to probably add display module
 
