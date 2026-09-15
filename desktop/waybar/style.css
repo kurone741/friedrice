@@ -1,0 +1,9 @@
+* {
+	border: 1px;
+	border-radius: 1px;
+	font-family: "JetBrainsMono Nerd Font";
+	font-size: 10px;
+	min-height: 12px;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+}
