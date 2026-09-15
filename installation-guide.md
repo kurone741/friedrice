@@ -10,3 +10,5 @@ TEMPORARY LIST, TODO: ADD
  - awww
  - rofi
  - yazi
+ - pywal16
+ - imagemagick
