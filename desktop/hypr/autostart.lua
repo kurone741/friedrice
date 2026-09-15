@@ -1,6 +1,10 @@
-local wallpaperDir = "~/.config/walls"
+local wallsRepo = "~/.config/walls"
 
-hl.dsp.exec_cmd("waybar")
-hl.dsp.exec_cmd("awww-daemon")
+hl.on("hyprland.start", function()
+	hl.exec_cmd("waybar")
 
-hl.dsp.exec_cmd("awww-daemon & sleep 0.2; awww img \"$(find " .. wallpaperDir .. " -type f | shuf -n 1)\"")
+	--wallpaper stuff
+	hl.exec_cmd("awww-daemon & sleep 0.2; awww img \"$(find " .. wallsRepo .. " -type f | shuf -n 1)\"")
+
+
+end)
