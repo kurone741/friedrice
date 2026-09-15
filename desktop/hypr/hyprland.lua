@@ -5,7 +5,7 @@ local menu            = "rofi -show drun"
 hl.config({
 	general= {
 		gaps_in= 3,
-		gaps_out= 5,
+		gaps_out= 3,
 
 		border_size= 1,
 
@@ -24,7 +24,7 @@ hl.config({
 		rounding = 3;
 
 		active_opacity = 1.0,
-		inactive_opacity = 0.9,
+		inactive_opacity = 0.95,
 
 		shadow = {
        		      enabled      = true,

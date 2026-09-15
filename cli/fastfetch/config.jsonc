@@ -2,7 +2,6 @@
 	"$schema":"https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 
 	"display":{
-		"separator":"",
 		"percent":{
 			"type":["num","bar"]
 		},
@@ -26,87 +25,89 @@
 
 	"modules":[
 
+		"break",
+
 		{
 			"type":"custom",
-			"format":"╭───────────────────────────────────────────────────────────────╮"
+			"format":"╭─────────────────────────────────────────────────────────────╮"
 		},
 
 		{
 			"type":"os",
-			"key":"│  OS           ",
+			"key":"│  OS       ",
 			"format":"{pretty-name<48}│"
 		},
 
 		{
 			"type":"command",
-			"key":"│  Kernel       ",
+			"key":"│  Kernel   ",
 			"text":"uname -r | cut -d '-' -f1",
 			"format":"{result<48}│"
 		},
 
 		{
 			"type":"command",
-			"key":"│  Uptime       ",
+			"key":"│  Uptime   ",
 			"text":"uptime -p | sed -E 's/up //; s/ days?/d/g; s/ hours?/h/g; s/ minutes?/m/g'",
 			"format":"{result<48}│"
 		},
 
 		{
 			"type":"shell",
-			"key":"│  Shell        ",
+			"key":"│  Shell    ",
 			"format":"{pretty-name<48}│"
 		},
 
 		{
 			"type":"command",
-			"key":"│  WM           ",
+			"key":"│  WM       ",
 			"text":"echo $XDG_CURRENT_DESKTOP",
 			"format":"{result<48}│"
 		},
 
 		{
 			"type":"command",
-			"key":"│  Mem          ",
+			"key":"│  Mem      ",
 			"text":"free -m | awk 'NR==2{printf \"%.2f / %.2f GiB\",$3/1024,$2/1024}'",
 			"format":"{result<48}│"
 		},
 
 		{
 			"type":"command",
-			"key":"│  CPU          ",
+			"key":"│  CPU      ",
 			"text":"lscpu | awk -F': *' '/Model name/ {name=$2} /Core\\(s\\) per socket/ {cores=$2} /CPU max MHz/ {freq=$2} END {printf \"%s | %s @ %.1f GHz\", name, cores, freq/1000}'",
 			"format":"{result<48}│"
 		},
 
 		{
 			"type":"command",
-			"key":"│  Disk         ",
+			"key":"│  Disk     ",
 			"text":"df -h --output=size,used,fstype / | awk 'NR==2 {gsub(/G/,\"\",$1); gsub(/G/,\"\",$2); print $2 \" / \" $1 \" GiB - \" $3}'",
 			"format":"{result<48}│"
 		},
 
 		{
 			"type":"battery",
-			"key":"│  Batt         ",
+			"key":"│  Batt     ",
 			"format":"{capacity-bar} {capacity} | {status<31}│"
 		},
 
 		{
 			"type": "command",
-			"key": "│  Disp         ",
+			"key": "│  Disp     ",
 			"text": "hyprctl monitors -j | jq -r '.[0] | \"\\(.width)x\\(.height) @ \\(.refreshRate | floor)Hz | \\(.name)\"'",
 			"format": "{result<48}│"
 		},
 
 		{
 			"type":"packages",
-			"key":"│  Packages     ",
+			"key":"│  Packages ",
 			"format":"{all<48}│"
 		},
 
 		{
 			"type":"custom",
-			"format":"╰───────────────────────────────────────────────────────────────╯"
+			"format":"╰─────────────────────────────────────────────────────────────╯"
 		},
 
 		"break"
