@@ -8,7 +8,7 @@ opinionated work in progress rice for hyprland
   - [keybinds](#keybinds)
     - [applications](#applications)
       - [wlogout](#wlogout)
-    - [windows & workspaces](windows & workspaces)
+    - [windows & workspaces](#windows-&-workspaces)
 
 ## defaults
 | function               | program                     |
