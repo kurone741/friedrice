@@ -19,7 +19,7 @@
 		"source":"~/.config/fastfetch/arch.txt",
 		"padding":{
 			"top":1,
-			"right":3,
+			"right":4,
 			"left":3
 		}
 	},
@@ -92,10 +92,11 @@
 		},
 
 		{
-     			"type": "display",
+			"type": "command",
 			"key": "│  Disp         ",
-   			"format": "{width}x{height} @ {refresh-rate}Hz | {status<48}│"
-    },
+			"text": "hyprctl monitors -j | jq -r '.[0] | \"\\(.width)x\\(.height) @ \\(.refreshRate | floor)Hz | \\(.name)\"'",
+			"format": "{result<48}│"
+		},
 
 		{
 			"type":"packages",
