@@ -25,7 +25,6 @@
 	},
 
 	"modules":[
-		"break",
 
 		{
 			"type":"custom",
@@ -91,6 +90,12 @@
 			"key":"│  Batt         ",
 			"format":"{capacity-bar} {capacity} | {status<31}│"
 		},
+
+		{
+     			"type": "display",
+			"key": "│  Disp         ",
+   			"format": "{width}x{height} @ {refresh-rate}Hz | {status<48}│"
+    },
 
 		{
 			"type":"packages",

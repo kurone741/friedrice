@@ -24,20 +24,20 @@ hl.config({
 		rounding = 3;
 
 		active_opacity = 1.0,
-		inactive_opacity = 0.8,
+		inactive_opacity = 0.9,
 
 		shadow = {
        		      enabled      = true,
       		      range        = 4,
-      		      render_power = 3,
+      		      render_power = 4,
      		      color        = 0xee1a1a1a,
         	},
 
 		blur = {
  	               enabled  = true,
-  		       size     = 6,
-  		       passes   = 1,
-  		       vibrancy = 0.1696,
+  		       size     = 8,
+  		       passes   = 4,
+  		       vibrancy = 3,
 		}
 	},
 

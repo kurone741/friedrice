@@ -1,0 +1,12 @@
+# appearance 
+height: 200
+width: 500
+
+#position
+origin = top_right
+
+# offset/margins from the origin
+offset = 5x18
+
+# behavior
+notification_limit = 20
