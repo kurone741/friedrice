@@ -89,7 +89,7 @@
 		{
 			"type":"battery",
 			"key":"│  Batt     ",
-			"format":"{capacity-bar} {capacity} | {status<31}│"
+			"format":"{capacity-bar} {capacity} | {status<30}│"
 		},
 
 		{

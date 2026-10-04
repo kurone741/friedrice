@@ -17,7 +17,7 @@ end)
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 
 --ss utilty
-hl.bind("SUPER + S", hl.dsp.exec_cmd('grim -g "$(slurp)" - | wl-copy'))
+hl.bind("SUPER + S", hl.dsp.exec_cmd('grim -g "$(slurp)" - | tee ~/Pictures/ss/$(date "+%Y-%m-%d-%H-%M-%S").png | wl-copy'))
 
 -- Switch / move to workspaces 1-9
 for i = 1, 9 do

@@ -35,9 +35,9 @@ hl.config({
 
 		blur = {
  	               enabled  = true,
-  		       size     = 8,
-  		       passes   = 4,
-  		       vibrancy = 3,
+  		       size     = 2,
+  		       passes   = 5,
+  		       vibrancy = 8,
 		}
 	},
 
@@ -47,6 +47,6 @@ hl.config({
 
 })
 
---keybinds
+--external
 require("keybinds")
 require("autostart")
