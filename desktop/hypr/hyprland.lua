@@ -36,8 +36,8 @@ hl.config({
 		blur = {
  	               enabled  = true,
   		       size     = 2,
-  		       passes   = 5,
-  		       vibrancy = 8,
+  		       passes   = 6,
+  		       vibrancy = 10,
 		}
 	},
 
@@ -50,3 +50,4 @@ hl.config({
 --external
 require("keybinds")
 require("autostart")
+require("obsidian")
