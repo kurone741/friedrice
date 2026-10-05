@@ -1,0 +1,54 @@
+/* Obsidian translucent UI */
+
+.theme-dark {
+    --background-primary: rgba(15, 15, 15, 0.65);
+    --background-primary-alt: rgba(15, 15, 15, 0.55);
+    --background-secondary: rgba(10, 10, 10, 0.60);
+    --background-secondary-alt: rgba(20, 20, 20, 0.55);
+}
+
+/* Main workspace */
+.workspace {
+    background: transparent;
+}
+
+/* Editor */
+.workspace-leaf,
+.mod-root .workspace-leaf-content {
+    background: rgba(10, 10, 10, 0.45);
+}
+
+/* Left/right sidebars */
+.mod-left-split,
+.mod-right-split {
+    background: rgba(10, 10, 10, 0.50);
+}
+
+/* Tabs */
+.workspace-tab-header-container {
+    background: rgba(10, 10, 10, 0.45);
+}
+
+.workspace-tab-header {
+    background: transparent;
+}
+
+.workspace-tab-header.is-active {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* File explorer */
+.nav-files-container {
+    background: transparent;
+}
+
+/* Status bar */
+.status-bar {
+    background: rgba(10, 10, 10, 0.50);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+}
+
