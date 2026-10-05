@@ -1,5 +1,7 @@
 # benchmarks and notes
 
+## damn it's been a month. + plans going forward
+i don't know if i'll stay with hyprland. if i do switch, i'll still choose a tiling wm for sure. can't go back anymore lmao. a lot of things will probably carry over. i've been using the same waybar since early sep. in the end there wasn't really a pressing reason to change it. and i think i'm going to ditch rofi for fuzzel; it's more ismple and unix-y, and i don't use many of rofi's features anyways. all i use is `drun`. and uh, t's kinda embarassinf but still, i haven't touched neovim. fuck, bro. i'm swamped..
 ## 2026 09 01
 i want to finish fastfetch and integrate pywal today.
 
