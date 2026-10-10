@@ -1,5 +1,5 @@
 # friedrice
-opinionated work in progress rice for hyprland
+ opinionated work in progress rice for hyprland
 
 ## Table of Contents
 
